@@ -5,7 +5,7 @@ A 24 GHz radar lets them watch people: the eyes sleep with their lids shut, snap
 walks up, and follow them around the room. Eye style, colours, schedule and tracking behaviour are
 all set from a web page the prop serves itself — no cable, no recompiling.
 
-[https://github.com/backshed-electronics/skull-eyes/blob/main/docs/images/skull_eyes_full20.mp4]
+![Skull Eyes tracking](docs/images/skull-eyes-tracking.gif)
 | | |
 |---|---|
 | ![Eyes left](docs/images/skull-left.jpg) | ![Eyes right](docs/images/skull-right.jpg) |
