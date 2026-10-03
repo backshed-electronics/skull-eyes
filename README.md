@@ -5,7 +5,11 @@ A 24 GHz radar lets them watch people: the eyes sleep with their lids shut, snap
 walks up, and follow them around the room. Eye style, colours, schedule and tracking behaviour are
 all set from a web page the prop serves itself — no cable, no recompiling.
 
-![The skull, lit](docs/images/skull-lit.jpg)
+PASTE_VIDEO_URL_HERE
+
+| | |
+|---|---|
+| ![Eyes left](docs/images/skull-left.jpg) | ![Eyes right](docs/images/skull-right.jpg) |
 
 ![Eye styles](docs/images/eye_styles.png)
 
@@ -27,21 +31,19 @@ all set from a web page the prop serves itself — no cable, no recompiling.
 - **Sleeps until someone moves.** Lids shut and no drawing at all, then they snap open and lock on.
 - **A settings page over Wi-Fi**, with a live radar map and over-the-air firmware updates.
 
-**→ [USER_GUIDE.md](USER_GUIDE.md)** explains every control.
+**→ [USER_GUIDE.md](USER_GUIDE.md) explains every control.**
 
 ## The build
 
 Mine lives in a Home Accents Holiday "Grave Bones" skull from Home Depot
 ([product page](https://www.homedepot.com/p/Home-Accents-Holiday-LED-Grave-Bones-Skelly-Skull-26SV25375/339865750)).
-Its own LED eyes come out, and the sockets take the 1.28" displays with a piece of perfboard
-behind each one. The radar sits at the forehead, standing portrait, with a clear view out.
+Its own LED eyes come out and the sockets take the 1.28" displays.
 
-| | |
-|---|---|
-| ![Inside the skull](docs/images/skull-inside.jpg) | ![Radar mounted portrait](docs/images/radar-portrait.jpg) |
-| Perfboard behind each eye, sleeved harness | The radar must stand portrait, not landscape |
+![Inside the skull](docs/images/skull-inside.jpg)
 
-![Display wiring](docs/images/eye-wiring.jpg)
+A piece of perfboard behind each eye carries that display's connections, the harness runs down to
+the controller in the jaw, and the radar is glued inside the forehead — **standing portrait**,
+which is the detail that makes tracking work.
 
 ## Hardware
 
@@ -49,7 +51,7 @@ behind each one. The radar sits at the forehead, standing portrait, with a clear
 |---|---|
 | Seeed XIAO ESP32-S3 | the 8 MB PSRAM version |
 | 2 × GC9A01 1.28" round display | 240×240, SPI |
-| Ai-Thinker RD-03D radar | optional; **mount it portrait** for the wide ±60° fan |
+| Ai-Thinker RD-03D radar | optional; mount it portrait |
 | 5 V supply | about 0.13 A for the eyes, plus ~0.09 A for the radar |
 
 ![Wiring](docs/images/wiring.png)
@@ -77,8 +79,7 @@ After the first USB flash, later updates go over Wi-Fi from the settings page.
 
 ## First run
 
-1. Power it up and join the Wi-Fi network **SkullEyes** (password in `skull_web.cpp` — change it
-   before publishing anything).
+1. Power it up and join the Wi-Fi network **SkullEyes** (the password is in `skull_web.cpp`).
 2. The settings page should open by itself; if not, go to http://192.168.4.1. If your phone drops
    the network for having no internet, tell it to stay connected.
 3. Enter your home Wi-Fi. After that the page lives at http://skull.local, or at the IP address
