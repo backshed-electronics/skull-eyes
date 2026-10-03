@@ -5,7 +5,7 @@ A 24 GHz radar lets them watch people: the eyes sleep with their lids shut, snap
 walks up, and follow them around the room. Eye style, colours, schedule and tracking behaviour are
 all set from a web page the prop serves itself — no cable, no recompiling.
 
-![The skull, lit](docs/images/photos/skull-lit.jpg)
+![The skull, lit](docs/images/skull-lit.jpg)
 
 ![Eye styles](docs/images/eye_styles.png)
 
@@ -38,10 +38,10 @@ behind each one. The radar sits at the forehead, standing portrait, with a clear
 
 | | |
 |---|---|
-| ![Inside the skull](docs/images/photos/skull-inside.jpg) | ![Radar mounted portrait](docs/images/photos/radar-portrait.jpg) |
+| ![Inside the skull](docs/images/skull-inside.jpg) | ![Radar mounted portrait](docs/images/radar-portrait.jpg) |
 | Perfboard behind each eye, sleeved harness | The radar must stand portrait, not landscape |
 
-![Display wiring](docs/images/photos/eye-wiring.jpg)
+![Display wiring](docs/images/eye-wiring.jpg)
 
 ## Hardware
 
