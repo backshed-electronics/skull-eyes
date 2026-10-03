@@ -5,6 +5,8 @@ A 24 GHz radar lets them watch people: the eyes sleep with their lids shut, snap
 walks up, and follow them around the room. Eye style, colours, schedule and tracking behaviour are
 all set from a web page the prop serves itself — no cable, no recompiling.
 
+![The skull, lit](docs/images/photos/skull-lit.jpg)
+
 ![Eye styles](docs/images/eye_styles.png)
 
 ## What it does
@@ -26,6 +28,20 @@ all set from a web page the prop serves itself — no cable, no recompiling.
 - **A settings page over Wi-Fi**, with a live radar map and over-the-air firmware updates.
 
 **→ [USER_GUIDE.md](USER_GUIDE.md)** explains every control.
+
+## The build
+
+Mine lives in a Home Accents Holiday "Grave Bones" skull from Home Depot
+([product page](https://www.homedepot.com/p/Home-Accents-Holiday-LED-Grave-Bones-Skelly-Skull-26SV25375/339865750)).
+Its own LED eyes come out, and the sockets take the 1.28" displays with a piece of perfboard
+behind each one. The radar sits at the forehead, standing portrait, with a clear view out.
+
+| | |
+|---|---|
+| ![Inside the skull](docs/images/photos/skull-inside.jpg) | ![Radar mounted portrait](docs/images/photos/radar-portrait.jpg) |
+| Perfboard behind each eye, sleeved harness | The radar must stand portrait, not landscape |
+
+![Display wiring](docs/images/photos/eye-wiring.jpg)
 
 ## Hardware
 
